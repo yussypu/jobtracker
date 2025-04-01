@@ -1,0 +1,17 @@
+{% for job in column.jobs %}
+  {% include "partials/job_card.html" with job=job %}
+{% empty %}
+  <div class="text-center text-sm text-gray-500 dark:text-gray-400 italic p-6 empty-state">
+    {% if column.stage == 'applied' %}
+      📝 Start applying!
+    {% elif column.stage == 'interview' %}
+      🤞 Waiting to hear back?
+    {% elif column.stage == 'offer' %}
+      💼 Offers will show up here.
+    {% elif column.stage == 'rejected' %}
+      🚫 Not the one? Try again!
+    {% else %}
+      💤 No jobs yet.
+    {% endif %}
+  </div>
+{% endfor %}
