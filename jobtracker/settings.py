@@ -138,6 +138,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 import os
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'theme', 'static'),
-]
+STATIC_URL = '/static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+
+# WhiteNoise (if not already there)
+MIDDLEWARE.insert(1, "whitenoise.middleware.WhiteNoiseMiddleware")
