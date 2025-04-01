@@ -36,8 +36,8 @@ Designed to help job seekers organize their application process using a clean, K
 
 ## 🚀 Live Demo & Repository
 
-**Live App:** [job-tracker-demo.render.com]([https://job-tracker-demo.render.com](https://jobtracker-1v1e.onrender.com/))  
-
+**Live App:** [[job-tracker-demo.render.com]([https://job-tracker-demo.render.com](https://jobtracker-1v1e.onrender.com/))  
+](https://jobtracker-1v1e.onrender.com/)
 ---
 
 ## 📦 Setup (Local Development)
