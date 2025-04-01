@@ -43,13 +43,18 @@ Designed to help job seekers organize their application process using a clean, K
 ## 📦 Setup (Local Development)
 
 git clone https://github.com/yussypu/job-tracker.git
+
 cd job-tracker
+
 python -m venv venv
+
 source venv/bin/activate
+
 pip install -r requirements.txt
 
 # Set up DB
 python manage.py makemigrations
+
 python manage.py migrate
 
 # Run dev server
