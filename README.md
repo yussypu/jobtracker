@@ -1,13 +1,13 @@
-# 🌟 Job Tracker — Django Web App
+#  Job Tracker — Django Web App
 
 A fully responsive, dark-mode enabled job application tracker built with Django, HTMX, and TailwindCSS.  
 Designed to help job seekers organize their application process using a clean, Kanban-style interface.
 
-> ⚡️ Built in under 48 hours to explore Django + HTMX after receiving an interview invite from Carbon Equity.
+>  Built in under 48 hours to explore Django + HTMX after receiving an interview invite from Carbon Equity.
 
 ---
 
-## 🔧 Tech Stack
+##  Tech Stack
 
 - **Django** — full server-side rendered backend (views, forms, models)
 - **Tailwind CSS** — utility-first styling, dark mode, responsive layout
@@ -18,7 +18,7 @@ Designed to help job seekers organize their application process using a clean, K
 
 ---
 
-## 💡 Features
+##  Features
 
 ✅ Kanban-style board (Applied, Interview, Offer, Rejected)  
 ✅ Full CRUD functionality for job entries  
@@ -34,13 +34,13 @@ Designed to help job seekers organize their application process using a clean, K
 
 ---
 
-## 🚀 Live Demo & Repository
+##  Live Demo & Repository
 
 **Live App:** 
 [[job-tracker-demo.render.com]([https://job-tracker-demo.render.com](https://jobtracker-1v1e.onrender.com/))](https://jobtracker-1v1e.onrender.com/)
 ---
 
-## 📦 Setup (Local Development)
+##  Setup (Local Development)
 
 ```bash
 git clone https://github.com/yussypu/job-tracker.git
@@ -64,7 +64,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-## 🛠 Future Features / Roadmap
+##  Future Features / Roadmap
 
 These are features I’m actively planning or considering for future updates:
 
