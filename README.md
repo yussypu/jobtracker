@@ -59,3 +59,22 @@ python manage.py migrate
 
 # Run dev server
 python manage.py runserver
+
+
+## 🛠 Future Features / Roadmap
+
+These are features I’m actively planning or considering for future updates:
+
+- [ ] **User Authentication** — allow users to register and securely manage their own job boards  
+- [ ] **Drag & Drop Kanban** — enable intuitive reordering and column shifting with JS or HTMX extensions  
+- [ ] **Job Notes & Logs** — add notes or timeline updates (e.g. sent follow-up, received feedback)  
+- [ ] **Deadline Reminders** — notify users of upcoming deadlines for applications or interviews  
+- [ ] **Custom Columns** — allow users to define their own application stages (e.g. Coding Challenge, Final Round)  
+- [ ] **CSV Export** — export job data for backup or analysis  
+- [ ] **Search & Filters** — search by title, company, or status  
+- [ ] **Tagging System** — label jobs by industry, location, or job type  
+- [ ] **Multi-user Collaboration** — share job boards with mentors or accountability partners  
+
+> If you'd like to contribute or collaborate on any of these, feel free to open an issue or reach out!
+
+
